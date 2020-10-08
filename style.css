@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    width: auto;
+    text-align: center;
+    font-family: "inherit";
+  }
+  
+  #header{
+    display: flex;
+    flex-direction: row;
+    height: 4.2em;
+    width: auto;
+    background-color:#212529;
+    justify-content: center;
+  }
+  
+  .header2{
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+    width: auto;
+    justify-content: space-around;
+  }
+  
+  .menu{
+    margin-top: 1.5em;
+    color: white;
+    font-family:"inherit";
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .home{
+    color:white;
+    cursor: default;
+  }
+  
+  
+  .menu:hover {
+    color: #EA8A95;
+  }
+  
+  #presentacion{
+    justify-content: center;
+    width: auto;
+    position: relative;
+    padding-top: 6.25em;
+    height: 35em;
+  }
+  .foto{
+    width: 15em;
+    border-radius: 50%;
+  }
+  
+  h1{
+    width: auto;
+    font-family:inherit;
+    font-size: 4.5em;
+    color: #3e3e3e;
+  }
+  .claro{
+    color: #747272;
+    font-family:inherit;
+  }
+  h2{
+    width: auto;
+    font-size: 2.5em;
+    font-family: inherit;
+    color: #3e3e3e;
+    font-weight: normal;
+  }
+  
+  .btn{
+    width: 20em;
+    height: 5em;
+    background-color:#EA8A95 ;
+    border-radius: 0.35em;
+   
+  }
+   .texto{
+     font-family:inherit;
+     font-size: 1.5em;
+     color: white;
+   }
+  
+  
+  #footer{
+    justify-content: center;
+    width: auto;
+    padding: 15em 0 3.1em 0;
+    font-family: inherit;
+    font-size: 1.5em;
+  }
+  
+  a{
+    color:#3e3e3e ;
+    font-family: inherit;
+    margin: 0.6em 1.2em;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #EA8A95;
+  }
+  
+  .copyright{
+    color: #3e3e3e;
+    font-size: 0.8em;
+    padding: 0.6em 0;
+  }
