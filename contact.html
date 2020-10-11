@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elisa Sancho</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    
+</head>
+
+
+<body>
+    <div id="header">
+        <div class="header2">
+          <a class="menu home" href="index.html">Inicio</a>
+          <a class="menu aboutme" href="Sobre mi.html" >Sobre Mi </a>
+          <a class="menu portfolio" href="portfolio.html">Portfolio</a>
+          <a class="menu contact" href="contact.html">Contacto</a>
+        </div>
+      </div>
+
+    <div class= "contact_form">
+        <div class="formulario">
+            <h1>Formulario de contacto</h1>
+            <h3>Escribeme y en breve me pondré en contacto contigo</h3>
+            <form action="" method="POST">
+                <p>
+                   <label for="nombre" class="colocar_nombre">Nombre<span class="obligarorio">*</span></label>
+                   <input type="text"name="intrudir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+
+                <p>
+                   <label for="email" class= "colocar_email">Email<span class="obligarorio">*</span></label>
+                    <input type="email" name="itroducir_email" id="email" required="obligarorio" placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>  
+
+                <p>
+                    <label for="website" class="colocar_website">Sitio web
+                    </label>
+                     <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                </p>  
+
+                <p>
+                    <label for="asunto" class="colocar_asunto">Asunto<span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>
+
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                    </label>  
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p> 
+
+                
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                <p class="aviso">
+                <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>                    
+            </form>
+        </div>
+    </div>
+    
+
+
+
+<div id="footer">
+    <a class="footer-link" href="·" target="_blank">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/elisanba" target="_blank">GitHub</a>
+    <a class="footer-link" href="·" target="_blank">Instagram</a>
+    <p class="copyright" >© 2020 Elisa Sancho.</p>
+  </div>
+
+</body>
+</html>
