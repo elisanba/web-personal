@@ -8,23 +8,19 @@ body{
   }
 
   /*responsive*/
-  @media screen and (max-width: 576px){
-    
-    #header{
-     
-      height: 6em;
+  @media screen  and (max-width: 600px){
+    #header, .header2{
+      display: flex;
+      flex-direction: column;
+      margin:auto;
     }
-    .front, .back{
-      width: 50vh !important;
+    
+    .experencias{
+      width:2em !important;
+
       
     }
-    .back{
-      margin-top: 2.em!important;
-    }
-    .footer{
-    padding-top: 20em !important
-   
-    }
+    
   }
 
   
@@ -36,6 +32,7 @@ body{
     width: auto;
     background-color:#212529;
     justify-content: center;
+    
   }
   
   .header2{
@@ -44,6 +41,7 @@ body{
     height: 3em;
     width: auto;
     justify-content: space-around;
+    
   }
   
   .menu{
@@ -52,6 +50,7 @@ body{
     font-family:"inherit";
     font-size: 1.5em;
     cursor: pointer;
+
   }
   
 
@@ -69,25 +68,24 @@ body{
     padding-top: 6.25em;
     height: 45em;
     
-   
   }
   .foto{
-    
     width: 15em;
     border-radius: 50%;
   }
   
   h1{
-    
     width: auto;
     font-family:inherit;
     font-size: 4.5em;
     color: #3e3e3e;
   }
+
   .claro{
     color: #747272;
     font-family:inherit;
   }
+
   h2{
     width: auto;
     font-size: 2.5em;
@@ -112,28 +110,69 @@ body{
    }
 
 
-
+/*Estilos de trabajos destacados*/
 
   .title{
-    margin: 5em 0 5em;
+    margin: 2em 0 5em;
     font-size: 2.5em;
     font-family: inherit;
     color: #3e3e3e
   }
-  .cards {
+
+  
+  .proyectos {
     display: flex;
-    justify-content: center;
-   margin-left: -25em;
-    width: 100%;
-    height: 25em;
+    justify-content: center 
+}
+
+
+
+.pro {
+  cursor: default;
+  display: block;
+  padding: 40px 30px;
+  background-color: var(--color-gray);
+  border: 1px solid;
+  border-color: #5a5a5a;
+}
+#img-caja{
+  width: 500px;
+  height: 500px;
+  filter: grayscale(200%);
+  object-fit: cover;
+}
+#img-caja:hover{  
+   filter: none;
+   transition: all 0.5s;
+   border-color: var(--color-gray-dark-2);
+   cursor: pointer;  
+   /* transform: scale(1.14); */
+}
+
+/* ----- MediaS ----- */
+
+@media only screen and (min-width: 992px){ /*en pantallas de 992px de ancho o más*/
     
-}
+  #proyectos{
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  
+  
 
-.foto{
-  height: 20em;
-  width: 15em;
-}
-
+  .caja{
+      display: inline-block;
+      /* width: 100%; */
+      /* height: 600px; */
+      margin-left: 20px;
+  }
+     
+  .pro{
+      /* display: inline-block; */
+      /* width: 500px; */
+      /* height: 600px; */
+      margin-bottom: 100px; 
+  }
 
 
 
@@ -142,7 +181,6 @@ body{
   #footer{
     justify-content: center;
     width: auto;
-    padding: 15em 0 3.1em 0;
     font-family: inherit;
     font-size: 1.5em;
   }
@@ -192,6 +230,7 @@ text-align: center;
     float: left;
     margin-right: 1.8em;
   }
+
   /*Estilos formulario contacto*/
 
   body{
